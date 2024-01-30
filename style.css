@@ -1,0 +1,786 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav{
+    width:100%;
+    position: absolute;
+    z-index: 999;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.nav-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 0px 0px ;
+}
+.nav .nav-main .logo{
+
+}
+.nav .nav-main .menu ul{
+    display: flex;
+}
+
+.nav .nav-main .menu ul li a {
+    margin-left: 48px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.nav .nav-main .menu ul li a i{
+    padding-left: 8px;
+}
+.botton a{
+    padding: 14px 28px;
+    border: 1px solid white;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%; /* 36px */
+    text-transform: capitalize;
+}
+/* header section start */
+.header{
+    position:relative;
+    width: 100%;
+    
+}
+.header-main-1{
+    background: url(image/Group.png),url(image/Rectangle\ 92.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.header .header-main{
+    text-align: center;
+}
+.header .header-main .menu ul li{
+    padding: 192px 0px 40px 0px;
+    display: inline-block;
+}
+.header .header-main .menu ul li a{
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.header .header-main .menu ul li:first-child a{
+    margin-right: 20px;
+}
+.header .header-main h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 0px 180px 0px 220px;
+}
+.header .header-main p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    padding: 20px 280px 0px 280px;
+    line-height: 30px;
+}
+.header .header-main input{
+    width: 638px;
+    height: 78px;
+    background-color:#FFFFFF;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 48px;
+}
+.header .header-main input::placeholder{
+    color: #29313D;
+    font-family:  'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+.header .header-main .btn{
+    width: 199px;
+    height: 78px;   
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -4px;
+    background-color: #6A55EA;
+    color: #FFF;
+    font-family:  'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 30px;
+    margin-bottom: 750px;
+}
+.roket{
+    position: absolute;
+    top:16%;
+    right:-20px;
+    
+}
+.roket img{
+    object-fit: cover;
+}
+.bottom-img{
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    left: 0; 
+    
+    
+
+}
+.bottom-img img{
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+.for-pnj{
+    position: absolute;
+    bottom:200px;
+    left: 420px;
+}
+.for-pnj img{
+    padding-right: 192px;   
+}
+
+/* header section end */
+
+/* Provide Awsome Service  section start */
+.provide{
+    margin-top: 40px;
+}
+.provide .provide-main .provide-one{
+    text-align: center;
+}
+.provide .provide-main .provide-one p{
+    color: #7968EF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    text-transform: capitalize;   
+}
+.provide .provide-main .provide-one h2{
+    color: #29313D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;   
+    padding: 0px 350px 60px 350px; 
+}
+.provide .provide-main .provide-two{
+    display: flex;
+    justify-content: space-between;
+}
+.provide .provide-main .provide-two .provide-left{
+    width: 47%;
+}
+.provide .provide-main .provide-two .provide-left img{
+    width: 100%;
+    object-fit: cover;
+}
+.provide .provide-main .provide-two .provide-left P{
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; 
+    text-transform: capitalize;    
+    padding-bottom: 80px;
+}
+.provide .provide-main .provide-two .provide-right{
+    width: 48%;
+}
+.provide .provide-main .provide-two .provide-right .right-menu{
+    display: flex;
+    margin-bottom: 36px;
+    align-items: center;
+    background: url(image/Rectangle\ 93.png);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px 0px;
+}
+.provide .provide-main .provide-two .provide-right .right-menu:nth-child(2){
+
+    background: url(image/Rectangle\ 93\ \(1\).png);
+}
+.provide .provide-main .provide-two .provide-right .right-menu:last-child{
+    background: url(image/Rectangle\ 93\ \(2\).png);
+    margin-bottom: 64px;
+}
+.provide .provide-main .provide-two .provide-right .right-menu .right-img{
+    background-color: #7968EF;
+    padding: 26px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+.provide .provide-main .provide-two .provide-right .right-menu .right-text h3{
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;   
+}
+.provide .provide-main .provide-two .provide-right .right-menu .right-text p{
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; 
+    text-transform: capitalize;  
+    padding-right: 80px;
+}
+/* Provide Awsome Service  section end */
+
+/* traffic section start  */
+.traffic{
+    width: 100%;
+    background-color: #FDFDFD;
+    padding-top: 171px;
+}
+.traffic-main{
+    display: flex;
+    justify-content: space-between;
+}
+.traffic .traffic-main .traffic-one{
+    width: 35%;
+
+}
+.traffic .traffic-main .traffic-one a{
+    color: #7968EF;
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+}
+.traffic .traffic-main .traffic-one h3{
+    color: #29313D;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: normal;
+    padding-bottom: 24px;
+}
+.traffic .traffic-main .traffic-one p{
+    color: #29313D;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 200%;
+}
+.traffic .traffic-main .traffic-two{
+    width: 50%;
+}
+.traffic .traffic-main .traffic-two img{
+    text-align: right;
+    width: 100%;
+    padding-bottom: 126px;
+    object-fit: cover;
+}
+/* traffic section end  */
+
+/* how can help section start */
+.how-can{
+    width: 100%;
+    background-color: #F1FBFB80;
+    padding-top: 120px;
+    text-align: center;
+}
+.how-can-main a{
+    color: #7968EF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    text-transform: capitalize;   
+}
+.how-can-main h3{
+    color: #29313D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding-bottom: 60px;
+}
+.how-can-top{
+    display: flex;
+    justify-content: space-between;
+}
+.how-can-top .how-can-box{
+    background: url(image/Rectangle\ 97.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    margin-bottom: 100px;
+}
+.how-can-top .how-can-box:first-child{
+    background: url(image/Rectangle\ 97\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.how-can-top .how-can-box:nth-child(3){
+    background: url(image/Rectangle\ 98.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.how-can-top .how-can-box:last-child{
+    background: url(image/Rectangle\ 97\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.how-can-top .how-can-box:last-child h5{
+    margin-top: 65px;
+}
+.how-can-top .how-can-box:first-child h5{
+    color: #FDFDFD;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+    text-transform: capitalize;  
+}
+.how-can-top .how-can-box img{
+    padding-top: 38px;
+    padding-bottom: 30px;
+    object-fit: cover;
+}
+
+.how-can-top .how-can-box h5{
+    color: #29313D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+    text-transform: capitalize;
+    padding: 0px 29px 40px 30px;
+}
+.how-can-bottom{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.how-can-bottom .how-can-left{
+    width: 40%;
+}
+.how-can-bottom .how-can-left img{
+    width: 95%;
+    object-fit: cover;
+}
+.how-can-bottom .how-can-right{
+    width: 50%;
+}
+.how-can-bottom .how-can-right h2{
+    color: #29313D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.how-can-bottom .how-can-right p{
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; 
+    text-transform: capitalize;
+    text-align: left;
+}
+.how-can-bottom .how-can-right a{
+    color: #F7FCFC;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    padding: 30px;
+    background-color: #6A55EA;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: -330px;
+    margin-bottom: 155px;
+}
+/* how can help section end */
+
+/* our case section start */
+.our-case{
+    width: 100%;
+    background-color: #FFFFFFCC;
+    padding: 120px 0px 0px 0px;
+}
+.our-case .our-case-main .our-case-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.our-case .our-case-main .our-case-top.top-one{
+    width: 50%;
+}
+.top-one a{
+    color: #7968EF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    text-transform: capitalize; 
+}
+.top-one h3{
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.our-case .our-case-main .our-case-top .top-two{
+    width: 50%;
+    text-align: right;
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+.top-two a{
+    color: #6A55EA;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    padding: 18px 35px;
+    border: 1px solid #6A55EA;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.top-two a:hover{
+    background-color: #6A55EA;
+    color: #FFF;
+}
+.our-case-botttom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.our-case-botttom .bottom-right{
+    width: 32%;
+}
+.our-case-botttom .bottom-right img{
+    width: 100%;
+}
+.our-case-botttom .bottom-right h5{
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+    padding-top: 24px;
+    padding-bottom: 14px;
+}
+.our-case-botttom .bottom-right p{
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 36px */
+    text-transform: capitalize;
+    padding-bottom: 120px;
+}
+/* our case section end */
+
+/* analytics section start */
+.analytics{
+    width: 100%;
+    background-color: #FDFDFD;
+    padding-top: 120px;
+    text-align: center;
+    position: relative;
+}
+.img-plan{
+    position: absolute;
+}
+.analytics-main{
+    background: url(image/Mask\ Group.png),50% url(image/Rectangle\ 99.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 123px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    margin-bottom: 120px;
+}
+.analytics-main h2{
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 67.2px */
+    text-transform: capitalize;
+}
+.analytics-main p{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 36px */
+    text-transform: capitalize;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-bottom: 28px;
+    padding-top: 10px;
+}
+.analytics-main input{
+    width: 638px;
+    height: 78px;
+    background-color:#FFFFFF;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 48px;
+    margin-bottom: 122px;
+    margin-right: -4px;
+}
+.analytics-main input::placeholder{
+    color: #29313D;
+    font-family:  'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+.analytics-main button{
+    width: 199px;
+    height: 79px;
+    flex-shrink: 0;
+    border-radius: 0px 20px 20px 0px;
+    background: #6A55EA;
+}
+/* analytics section end */
+
+/* fotter section start */
+.fotter{
+    width: 100%;
+    background-color: #FDFDFD;
+    padding-top: 140px;
+    
+
+}
+.fotter-main {
+    display: flex;
+    justify-content: space-between;
+}
+.fotter-main .fotter-left{
+    width: 35%;
+    
+
+}
+.fotter-main .fotter-left img{
+    padding-bottom: 44px;
+}
+.fotter-main .fotter-left p{
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+    text-transform: capitalize;
+    padding-bottom: 189px;
+}
+.fotter-main .fotter-right{
+    width: 55%;
+}
+.fotter-right{
+    display: flex;
+    justify-content: space-between;
+}
+.fotter-right .fotter-right-one ul li a{
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+    text-transform: capitalize;
+}
+.fotter-right .fotter-right-one ul li:first-child a{
+    color: #29313D;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 33.6px */
+    text-transform: capitalize;
+    padding-bottom: 48px;
+    padding-top: 20px;
+    
+}
+.fotter-right .fotter-right-one ul li{
+    padding-bottom: 30px;
+    
+}
+.fotter-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.fotter-bottom a{
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+    text-transform: capitalize;
+    padding-bottom: 57px;
+}
+.fotter-bottom .bottom-2 a{
+    padding-left: 60px;
+}
+/* fotter section start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
